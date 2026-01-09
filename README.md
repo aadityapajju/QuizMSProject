@@ -6,30 +6,30 @@ This repository contains a Spring Boot microservices–based Quiz Application in
 
 The system follows a microservices architecture:
 
-Eureka Server – Service discovery
-API Gateway – Single entry point for all client requests
-Question Service – Manages quiz questions
-Quiz Service – Manages quizzes and scoring
+Eureka Server – Service discovery,
+API Gateway – Single entry point for all client requests,
+Question Service – Manages quiz questions,
+Quiz Service – Manages quizzes and scoring,
 All services register themselves with Eureka and are accessed via the API Gateway.
 
 🛠️ Tech Stack
 
-Java 17
-Spring Boot
-Spring Data JPA
-Spring Cloud (Eureka, Gateway)
-MySQL
-REST APIs
+Java 17,
+Spring Boot,
+Spring Data JPA,
+Spring Cloud (Eureka, Gateway),
+MySQL,
+REST APIs,
 🌐 Service Registry (Eureka)
 
 Eureka Dashboard: http://localhost:8761
 
 Registered services:
 
-APIGATEWAY
-QUESTION-SERVICE
-QUIZ-SERVICE
-🚪 API Gateway
+APIGATEWAY,
+QUESTION-SERVICE,
+QUIZ-SERVICE,
+🚪 API Gateway.
 
 All APIs should be accessed via the API Gateway.
 
