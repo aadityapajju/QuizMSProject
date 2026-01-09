@@ -102,18 +102,17 @@ Response
 Score (Integer)
 📦 Database Tables
 
-Question Table
+Question Table:
 
-id,category,
-difficultyLevel,
+id,category,difficultyLevel,
 questionTitle,
-option1
-option2
-option3
-option4
-rightAnswer
+option1,
+option2,
+option3,
+option4,
+rightAnswer.
 
-Quiz Table
-id
-title
-List
+Quiz Table: 
+id,
+title,
+List.
